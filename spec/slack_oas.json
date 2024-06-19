@@ -1,0 +1,38 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Slack API",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/chat.postMessage": {
+        "post": {
+          "summary": "Send a message",
+          "parameters": [
+            {
+              "name": "channel",
+              "in": "query",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "text",
+              "in": "query",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Message sent successfully"
+            }
+          }
+        }
+      }
+    }
+  }
+  
