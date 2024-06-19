@@ -1,0 +1,7 @@
+{
+    "Background": "No background",
+    "User query": "Clone the repository 'test-repo' from 'test-owner'",
+    "API calling 1": "POST /repos/test-owner/test-repo/clone",
+    "API response": "Repository 'test-repo' cloned successfully"
+  }
+  
